@@ -7,6 +7,7 @@ from AutoEdit import AutoEdit
 from PIL import ImageTk
 from tkinter.filedialog import askopenfilenames
 
+# Compile command: pyinstaller "GUI.py" --onefile --icon=wand-icon.png --windowed --add-data="wand-icon.png;."
 
 class GUI:
     def __init__(self, tk_root: Tk):
@@ -199,7 +200,9 @@ class GUI:
 
 
 def resource_path(relative_path):
-    """ Get absolute path to resource, needed for pyinstaller to correctly add resource files to the executable """
+    """
+    Get absolute path to resource, needed for pyinstaller to correctly add resource files to the executable
+    """
     try:
         base_path = sys._MEIPASS
     except Exception:
