@@ -1,5 +1,6 @@
-# Python Application for doing basic edits on pictures in mass
-A simple python program I made using Pillow that allows users to make simple edits to multiple files at the same time.
+# Python Application for Basic Batch Image Edits
+
+A simple Python program using Pillow that allows users to make basic edits to multiple image files simultaneously.
 
 ## Setup
 - Download or clone the repo
