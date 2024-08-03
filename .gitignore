@@ -1,0 +1,8 @@
+/venv/
+/.idea/
+/__pycache__/
+/test_images/
+/output/
+/dist/
+/build/
+/GUI.spec
