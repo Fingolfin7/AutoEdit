@@ -96,6 +96,11 @@ Emboss
 
 ![LOTR Gandalf](https://github.com/user-attachments/assets/bc66ba1d-5fdb-43b9-9412-d1c55765b6af)
 
+Contour
+
+![LOTR Gandalf](https://github.com/user-attachments/assets/64581992-a582-447e-af80-e38a2af939a6)
+
+
 ## Additional Notes
 The program uses the Pillow library for image processing and tkinter for the GUI.
 The progress bar shows the progress of the image editing process, giving feedback to the user.
