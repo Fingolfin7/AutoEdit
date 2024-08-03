@@ -30,12 +30,10 @@ Choose a filter from the dropdown menu if needed.
 Click the `Apply Edits` button to apply the selected adjustments to all the chosen images. A progress bar will indicate the completion status of the edits.
 The edited files will be saved in the output folder path specified in the `Output Folder` field.
 
-*_Note:_* Edits will only be applied if the user changes the default values:
-Brightness will be adjusted only if its value is different from 1.0.
-Contrast will be adjusted only if its value is different from 1.0.
-Sharpness will be adjusted only if its value is different from 1.0.
-Rotation will be applied only if the angle is different from 0.
-A filter will be applied only if it is selected from the dropdown menu.
+**_Note:_** Edits will only be applied if the user changes the default values:
+- Brightness, Contrast, and Sharpness will be adjusted only if the value is different from 1.0.
+- Rotation will be applied only if the angle is different from 0.
+- A filter will be applied only if it is selected from the dropdown menu.
 
 
 ![image](https://github.com/user-attachments/assets/6accec42-407e-408f-8f95-8c759ab4b5d0)
@@ -59,7 +57,7 @@ The following filters can be applied to the images:
 - SMOOTH_MORE
 
 
-### Examples
+### Output Examples
 Gandalf (original):
 
 ![LOTR Gandalf](https://github.com/user-attachments/assets/97209112-7c5d-4818-92ac-804c6b831c3b)

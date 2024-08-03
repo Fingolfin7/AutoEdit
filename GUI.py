@@ -169,7 +169,6 @@ class GUI:
 
         # Save images to output directory
         self.auto_edit.save_images(self.out_dir.get())
-        self.auto_edit.clear_images()
         current_step += 1
         self.progress['value'] = current_step
         self.frame.update_idletasks()
@@ -185,11 +184,9 @@ class GUI:
         messagebox.showinfo("Success", success_message)
         self.progress['value'] = 0  # Reset progress bar
 
-        # open the output directory
-        os.system(f"explorer /select, {self.out_dir.get()}")
-
     def reset(self, event=None):
         self.images = []
+        self.auto_edit.clear_images()
         self.images_count.set(0)
         self.auto_edit.clear_images()
         self.out_dir.set("")
