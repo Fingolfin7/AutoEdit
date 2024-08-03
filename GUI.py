@@ -115,6 +115,7 @@ class GUI:
             messagebox.showinfo("No output directory", "Please specify an output directory.")
             return
 
+
         edits_confirmed = messagebox.askyesno("Confirm Edits",
                                               "Are you sure you want to apply these edits?")
         if not edits_confirmed:
@@ -196,7 +197,7 @@ class GUI:
         self.contrast_factor.set(1.0)
         self.sharpness_factor.set(1.0)
         self.rotate_angle.set(0)
-        self.selected_filter = ""
+        self.selected_filter.set("")
 
 
 def resource_path(relative_path):
