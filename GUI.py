@@ -176,7 +176,7 @@ class GUI:
 
         if edits_list:
             formated_edits = '\n-'.join(edits_list)
-            success_message = f"Images edited successfully. Edits applied: {formated_edits}"
+            success_message = f"Images edited successfully. Edits applied: \n{formated_edits}"
         else:
             success_message = "No edits applied."
 
